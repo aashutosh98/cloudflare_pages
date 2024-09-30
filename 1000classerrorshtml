@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Connection Issue</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; padding: 50px; }
+    h1 { color: #FF6F61; font-size: 48px; }
+    p { font-size: 18px; color: #555; }
+  </style>
+</head>
+<body>
+  <h1>1000 - Connection Issue</h1>
+  <p>There was an issue connecting to the server. This could be a DNS or SSL problem.</p>
+  <p>Please try again later or contact support at <a href="mailto:support@example.com">support@example.com</a> if the problem persists.</p>
+</body>
+</html>
