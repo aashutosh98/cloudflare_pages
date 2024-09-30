@@ -5,22 +5,57 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Access Restricted</title>
   <style>
-    body { font-family: Arial, sans-serif; text-align: center; padding: 50px; }
-    h1 { color: #FF6F61; font-size: 48px; }
-    p { font-size: 18px; color: #555; }
-    .error-box {
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+
+    }
+    .container {
+      text-align: center;
+      padding: 10px 20px;
+    }
+    h1 {
+      color: #dc3545;
+      font-size: 56px;
+    }
+    p {
+      font-size: 18px;
+      color: #555;
+      max-width: 600px;
+      margin: 20px auto;
+    }
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .token {
+      margin-top: 10px;
+      font-size: 16px;
+      color: #777;
+    }
+      .error-box {
         margin-top: 20px;
         font-size: 18px;
         color: #666;
       }
-</style>
+
+  </style>
 </head>
 <body>
-  <h1>Access Denied</h1>
-  <p>Sorry, access from your country or IP address has been blocked.</p>
-  <div class="error-box">
-    <!-- Cloudflare will replace this with the appropriate error details -->
-    ::CLOUDFLARE_ERROR_1000S_BOX::	  </div></body>
-
+  <div class="container">
+    <h1>Access Denied</h1>
+    <p>Sorry, your IP address or country has been restricted from accessing this site.</p>
+  </div>
+      <div class="error-box">
+      <!-- Cloudflare will replace this with the appropriate error details -->
+  ::GEO::
+    </div>
 </body>
 </html>
